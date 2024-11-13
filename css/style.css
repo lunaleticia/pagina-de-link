@@ -34,7 +34,7 @@ header {
 }
 
 header img {
-    max-width: 150px;
+    max-width: 200px;
     margin-bottom: 20px;
     border-radius: 50%;
 }
@@ -94,4 +94,11 @@ footer a.btn-footer {
     border-radius: 50%;
     margin: 0 10px;
     transition: .2s;
+}
+
+/* ----- MEDIA QUERY ----- */
+@media (max-width: 890px) {
+    header img {
+        max-width: 150px;
+    }
 }
